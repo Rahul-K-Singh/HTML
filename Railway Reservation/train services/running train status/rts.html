@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check train Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="rts-header">
+                <h2>Check train Status</h2>
+            </header>
+            <main class="rts-body">
+                <form action="#">
+                    <p>
+                        <label for="trainno">Search by Train</label>
+                        <input type="number" id="trainno" placeholder="Enter train number" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Check Status">
+                    </p>
+                </form>
+                <h3> ---------------------- or ---------------------</h3>
+                <form action="#">
+                    <p>
+                        <label for="trainno">Search by Station</label>
+                        <input type="text" id="form" placeholder="From" required>
+                        <input type="text" id="to" placeholder="To" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Check Trains">
+                    </p>
+                </form>
+            </main>
+    </div>
+</body>
+</html>

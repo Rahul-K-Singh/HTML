@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: #D8BFD8;
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    border-radius: 8px;
+}
+
+.feedback-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.feedback-header p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.feedback-body {
+    margin: 20px 0;
+}
+
+.feedback-body p {
+    margin: 10px 0;
+}
+
+.feedback-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.feedback-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.feedback-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.feedback-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+
+.feedback-footer p {
+    color: #555;
+    text-align: center;
+}
+
+.feedback-footer p a {
+    color: #2773a5;
+}
